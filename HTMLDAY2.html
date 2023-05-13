@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#3A6C6F;color:white" >
+    <form action="#" method="post">
+        <fieldset style="background-color:#399298">
+            <legend><h3>Personal Data</h3></legend> 
+            <br>
+            <fieldset style="background-color:#51C0C8">
+                <legend><h4>Your Name</h4></legend> 
+                <table>
+                    <tr><td><label for="firstname"><b>First Name</b></label></td><td><input type="text" placeholder="First Name" name="firstname" id="firstname" required>
+                    </td></tr>
+                    <tr><td><label for="secondname"><b>Second Name</b></label></td><td><input type="text" placeholder="Second Name" name="secondname" id="secondname" required>
+                    </td></tr>
+                </table>
+            </fieldset>
+            <br><br>
+            <table>
+                <tr><td><label for="phone"><b>Your Phone</b></label>
+                </td><td><input type="tel" placeholder="Your Phone" name="phone" id="phone" required>
+                </td></tr>
+                <tr><td><label for="email"><b>Email</b></label></td><td><input type="text" placeholder="Email" name="email" id="email" required>
+                </td></tr>
+                <tr><td><label for="password"><b>Password</b></label>
+                </td><td><input type="password" placeholder="Password" name="password" id="password" required>
+                </td></tr>
+                <tr><td><label for="re-password"><b>Re-Password</b></label>
+                </td><td><input type="password" placeholder="Confirm Password" name="repassword" id="re-password" required>
+                </td></tr>
+            </table>
+            <br>
+            <input type="radio" name="gender" value="male" id="male"> 
+            <label for="male"><b>Male</b></label>
+            <br>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female"><b>Female</b></label>
+            <br><br>
+            <input type="checkbox" id="student" name="student" value="student">
+            <label for="student"><b>Student</b></label><br>
+            <input type="checkbox" id="graduated" name="graduated" value="graduated">
+            <label for="graduated"><b>Graduated</b></label><br>
+            <br><br>
+            <label for="university">University</label>
+            <select name="university" id="university">
+                <option disabled selected>Select University</option>
+                <option value="AUC">Bachelors</option>
+                <option value="Cairo University">Cairo University</option>
+                <option value="Mansoura University">Mansoura University</option>
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
